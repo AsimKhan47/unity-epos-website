@@ -1,19 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,jsx}"
-  ],
+  content: [ "./index.html","./src/**/*.{js,jsx,ts,tsx}"], // adjust to your folder
   theme: {
     extend: {
-     fontFamily: {
-        inter: ['Inter', 'sans-serif'],
-        rubik: ['Rubik', 'sans-serif'],
-        unbounded: ['Unbounded', 'sans-serif'],
-        coolvetica: ['Coolvetica', 'sans-serif'],
-        cutive: ['Cutive', 'serif'],
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+        rubik: ["Rubik", "sans-serif"],
+        unbounded: ["Unbounded", "cursive"],
+        cutive: ["Cutive", "serif"],
+         coolvetica: ["Coolvetica", "sans-serif"],// custom
       },
+      
     },
   },
-  plugins: [],
+  plugins: [ require('@tailwindcss/line-clamp'),],
 };

@@ -7,7 +7,7 @@ const PlanHeader = () => {
     <section className="relative pt-[100px]  max-w-7xl mx-auto text-center">
       {/* Background pattern */}
       <div
-        className="absolute inset-0 bg-[url('/images/Mask-group-(1).png')] bg-repeat opacity-50 pointer-events-none"
+        className="absolute inset-0 bg-[url('/images/Mask-group-1.png')] bg-repeat opacity-50 pointer-events-none"
         aria-hidden="true"
       />
 

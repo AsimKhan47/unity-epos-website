@@ -1,0 +1,11 @@
+<svg width="1440" height="475" viewBox="0 0 1440 475" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M-67 120.732C-67 114.412 -62.0983 109.176 -55.7922 108.758L1575.21 0.846377C1582.13 0.38826 1588 5.88101 1588 12.8202V462.5C1588 469.127 1582.63 474.5 1576 474.5H-54.9999C-61.6274 474.5 -67 469.127 -67 462.5V120.732Z" fill="#E0F2F1"/>
+<mask id="mask0_2650_2" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-67" y="0" width="1655" height="475">
+<path d="M-67 120.732C-67 114.412 -62.0983 109.176 -55.7922 108.758L1575.21 0.846377C1582.13 0.38826 1588 5.88101 1588 12.8202V462.5C1588 469.127 1582.63 474.5 1576 474.5H-54.9999C-61.6274 474.5 -67 469.127 -67 462.5V120.732Z" fill="#E0F2F1"/>
+</mask>
+<g mask="url(#mask0_2650_2)">
+<ellipse cx="1217" cy="363.5" rx="282" ry="282.5" fill="#4EB5AA" fill-opacity="0.2"/>
+<circle cx="1217" cy="364" r="337" stroke="#4EB5AA" stroke-opacity="0.2" stroke-width="2"/>
+<ellipse cx="1217" cy="363.5" rx="231" ry="230.5" fill="#008B7C" fill-opacity="0.2"/>
+</g>
+</svg>

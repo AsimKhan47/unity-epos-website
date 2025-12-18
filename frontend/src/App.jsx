@@ -1,24 +1,28 @@
+// App.jsx
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./Layout";
-import Home from "./Pages/Home";
-import Pricing from "./Pages/Pricing";
-import ContactUs from "./Pages/Contact";
-import HowItWork from "./Pages/HowItWork";
+
+import Product from "./Pages/Product";
+import Pricing from "./pages/Pricing";
+import ContactUs from "./pages/ContactUs";
+import Faq from "./pages/Faq";
+import Home from "./pages/Home";
+import HowItWork from "./pages/HowItWork";
+import Case from "./pages/Case";
 
 function App() {
   return (
     <Router>
       <Layout>
         <Routes>
+         <Route path="/" element={<Home/>}/>
+          <Route path="/product" element={<Product />} />
           
-          <Route path="/" element={<Home />} />
-
-         
           <Route path="/pricing" element={<Pricing />} />
-
-          {/* Other Pages */}
-          <Route path="/how-it-works" element={<HowItWork/>} />
-          <Route path="/contact" element={<ContactUs/>} />
+          <Route path="/contact" element={<ContactUs />} />
+          <Route path="/faq" element={<Faq/>} /> 
+          <Route path="/howitwork" element={<HowItWork/>} /> 
+             <Route path="/case" element={<Case/>} /> 
         </Routes>
       </Layout>
     </Router>
